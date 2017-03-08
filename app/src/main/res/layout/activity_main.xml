@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deezy.quiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/green">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:src="@drawable/jojo"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"
+            android:padding="16dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:src="@drawable/jonathon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is this?"
+            android:padding="16dp"
+            android:id="@+id/question"/>
+
+        <RadioGroup
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/g1">
+
+            <RadioButton
+                android:id="@+id/Speedwagon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speedwagon"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jonathon"
+                android:id="@+id/jonathon"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Erina"
+                android:id="@+id/Erina"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dio"
+                android:id="@+id/Dio"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 2"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"/>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="130dp"
+            android:src="@drawable/pillarmen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What are the 3 pillar mens names?"
+            android:padding="16dp"/>
+
+        <RadioGroup
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/g2">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Josuke, Okuyasu and Koichi"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wham, Blam and Slam"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kars, Wammu, AC/DC"
+                android:id="@+id/kars"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ray, Bob and Steve" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 3"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"/>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/jotaro" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is the name of Jotaros Stand?"
+            android:padding="16dp"/>
+
+        <RadioGroup
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/g3">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Star Platinum"
+                android:id="@+id/star"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Za World"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Magicians Red" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Justice" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 4"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"/>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/josuke" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is Crazy Diamond's ability?"
+            android:padding="16dp"/>
+
+        <RadioGroup
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/g4">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fire" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electricity"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Healing and fixing"
+                android:id="@+id/crazy"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 5"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"/>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="150dp"
+            android:src="@drawable/speedwagon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is best Jojo?"
+            android:padding="16dp"/>
+
+        <RadioGroup
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/g5">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speedwagon"
+                android:id="@+id/s1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speedwagon"
+                android:id="@+id/s2"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speedwagon"
+                android:id="@+id/s3"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speedwagon"
+                android:id="@+id/s4"/>
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finished!"
+            android:onClick="q1"
+            android:id="@+id/finish"
+            android:padding="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/congratulations"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</ScrollView>
